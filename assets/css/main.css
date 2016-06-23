@@ -25,6 +25,8 @@
 
 	body {
 		line-height: 1;
+		overflow-x: hidden;
+		width: 100%;
 	}
 
 	ol, ul {
@@ -3119,6 +3121,9 @@
 				padding: 6em 0 6em 0 ;
 			}
 
+			.mobile-hide {
+			}
+
 	}
 
 /* Large */
@@ -3137,7 +3142,7 @@
 
 		/* List */
 
-			ul.major-icons li {
+ul.major-icons li {
 				padding: 2em;
 			}
 
@@ -3222,6 +3227,10 @@
 			#two {
 				text-align: center;
 			}
+
+            .mobile-hide {
+				display: None;
+            }
 
 	}
 
